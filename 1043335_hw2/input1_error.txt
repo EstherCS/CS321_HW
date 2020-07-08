@@ -1,0 +1,40 @@
+// This is an example of extended Micro, input1_error.txt
+
+begin 
+
+ declare A,,I as integer;
+ declare B..C,D,size as real;
+
+ declare E, 012abc;
+ declare LLL(100) AS REAL;
+
+ A:=0001;
+
+ B:=abc.123;
+ B:=123.abc;
+ C:=.123;
+ C:=123.;
+ D:=0.123abc;
+ D:=abc0.123;
+
+ E:=3.1416e-5abc;
+
+ E:="abc123;
+
+ B:=PI**B*/B+-C/+D*+0.345E-6;
+
+ FOR (I:=:=1 TO 100)
+   C:=,LLL(I)+B*D-C;
+ ENDFOR
+
+ IF (C>===10000) THEN
+    write("Good!");
+ ENDIF
+ IF (C><10000) THEN
+    write("Good!");
+ ENDIF
+ IF (C=>10000) THEN
+    write("Good!");
+ ENDIF
+
+end

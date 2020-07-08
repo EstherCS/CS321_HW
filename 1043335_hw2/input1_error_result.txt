@@ -1,0 +1,187 @@
+./a.out <input1_error.txt
+
+Token number : 10, value : "begin"     , line  3
+Token number : 25, value : "declare"   , line  5
+
+<<< Line  5, "A,,I" is an illegal token error.
+
+Token number : 26, value : "as"        , line  5
+Token number : 27, value : "integer"   , line  5
+Token number :  7, value : ";"         , line  5
+Token number : 25, value : "declare"   , line  6
+
+<<< Line  6, "B..C" is an illegal token error.
+
+Token number :  6, value : ","         , line  6
+Token number :  1, value : "D"         , line  6
+Token number :  6, value : ","         , line  6
+Token number :  1, value : "size"      , line  6
+Token number : 26, value : "as"        , line  6
+Token number : 28, value : "real"      , line  6
+Token number :  7, value : ";"         , line  6
+Token number : 25, value : "declare"   , line  8
+Token number :  1, value : "E"         , line  8
+Token number :  6, value : ","         , line  8
+
+<<< Line  8, "012abc" is an illegal ID error.
+
+Token number :  7, value : ";"         , line  8
+Token number : 25, value : "declare"   , line  9
+Token number :  1, value : "LLL"       , line  9
+Token number :  8, value : "("         , line  9
+Token number :  2, value : "100"       , line  9
+Token number :  9, value : ")"         , line  9
+Token number : 26, value : "AS"        , line  9
+Token number : 28, value : "REAL"      , line  9
+Token number :  7, value : ";"         , line  9
+Token number :  1, value : "A"         , line 11
+Token number : 31, value : ":="        , line 11
+
+<<< Line 11, "0001" is an illegal integer error.
+
+Token number :  7, value : ";"         , line 11
+Token number :  1, value : "B"         , line 13
+Token number : 31, value : ":="        , line 13
+
+<<< Line 13, "abc.123" is an illegal float point error.
+
+Token number :  7, value : ";"         , line 13
+Token number :  1, value : "B"         , line 14
+Token number : 31, value : ":="        , line 14
+
+<<< Line 14, "123.abc" is an illegal float point error.
+
+Token number :  7, value : ";"         , line 14
+Token number :  1, value : "C"         , line 15
+Token number : 31, value : ":="        , line 15
+
+<<< Line 15, ".123" is an illegal float point error.
+
+Token number :  7, value : ";"         , line 15
+Token number :  1, value : "C"         , line 16
+Token number : 31, value : ":="        , line 16
+
+<<< Line 16, "123." is an illegal float point error.
+
+Token number :  7, value : ";"         , line 16
+Token number :  1, value : "D"         , line 17
+Token number : 31, value : ":="        , line 17
+
+<<< Line 17, "0.123abc" is an illegal float point error.
+
+Token number :  7, value : ";"         , line 17
+Token number :  1, value : "D"         , line 18
+Token number : 31, value : ":="        , line 18
+
+<<< Line 18, "abc0.123" is an illegal float point error.
+
+Token number :  7, value : ";"         , line 18
+Token number :  1, value : "E"         , line 20
+Token number : 31, value : ":="        , line 20
+
+<<< Line 20, "3.1416e-5abc" is an illegal exponential float point error.
+
+Token number :  7, value : ";"         , line 20
+Token number :  1, value : "E"         , line 22
+Token number : 31, value : ":="        , line 22
+
+<<< Line 22, "abc123" is an illegal string error.
+
+Token number :  1, value : "B"         , line 24
+Token number : 31, value : ":="        , line 24
+Token number :  1, value : "PI"        , line 24
+
+<<< Line 24, "**" is an illegal operator error.
+
+Token number :  1, value : "B"         , line 24
+
+<<< Line 24, "*/" is an illegal operator error.
+
+Token number :  1, value : "B"         , line 24
+
+<<< Line 24, "+-" is an illegal operator error.
+
+Token number :  1, value : "C"         , line 24
+
+<<< Line 24, "/+" is an illegal operator error.
+
+Token number :  1, value : "D"         , line 24
+
+<<< Line 24, "*+" is an illegal operator error.
+
+Token number :  4, value : "0.345E-6"  , line 24
+Token number :  7, value : ";"         , line 24
+Token number : 18, value : "FOR"       , line 26
+Token number :  8, value : "("         , line 26
+Token number :  1, value : "I"         , line 26
+
+<<< Line 26, ":=:=" is an illegal assignment error.
+
+Token number :  2, value : "1"         , line 26
+Token number : 19, value : "TO"        , line 26
+Token number :  2, value : "100"       , line 26
+Token number :  9, value : ")"         , line 26
+Token number :  1, value : "C"         , line 27
+
+<<< Line 27, ":=," is an illegal assignment error.
+
+Token number :  1, value : "LLL"       , line 27
+Token number :  8, value : "("         , line 27
+Token number :  1, value : "I"         , line 27
+Token number :  9, value : ")"         , line 27
+Token number : 32, value : "+"         , line 27
+Token number :  1, value : "B"         , line 27
+Token number : 34, value : "*"         , line 27
+Token number :  1, value : "D"         , line 27
+Token number : 33, value : "-"         , line 27
+Token number :  1, value : "C"         , line 27
+Token number :  7, value : ";"         , line 27
+Token number : 20, value : "ENDFOR"    , line 28
+Token number : 14, value : "IF"        , line 30
+Token number :  8, value : "("         , line 30
+Token number :  1, value : "C"         , line 30
+
+<<< Line 30, ">===" is an illegal comparisons error.
+
+Token number :  2, value : "10000"     , line 30
+Token number :  9, value : ")"         , line 30
+Token number : 15, value : "THEN"      , line 30
+Token number : 13, value : "write"     , line 31
+Token number :  8, value : "("         , line 31
+Token number :  5, value : "Good!"     , line 31
+Token number :  9, value : ")"         , line 31
+Token number :  7, value : ";"         , line 31
+Token number : 17, value : "ENDIF"     , line 32
+Token number : 14, value : "IF"        , line 33
+Token number :  8, value : "("         , line 33
+Token number :  1, value : "C"         , line 33
+
+<<< Line 33, "><" is an illegal comparisons error.
+
+Token number :  2, value : "10000"     , line 33
+Token number :  9, value : ")"         , line 33
+Token number : 15, value : "THEN"      , line 33
+Token number : 13, value : "write"     , line 34
+Token number :  8, value : "("         , line 34
+Token number :  5, value : "Good!"     , line 34
+Token number :  9, value : ")"         , line 34
+Token number :  7, value : ";"         , line 34
+Token number : 17, value : "ENDIF"     , line 35
+Token number : 14, value : "IF"        , line 36
+Token number :  8, value : "("         , line 36
+Token number :  1, value : "C"         , line 36
+
+<<< Line 36, "=>" is an illegal comparisons error.
+
+Token number :  2, value : "10000"     , line 36
+Token number :  9, value : ")"         , line 36
+Token number : 15, value : "THEN"      , line 36
+Token number : 13, value : "write"     , line 37
+Token number :  8, value : "("         , line 37
+Token number :  5, value : "Good!"     , line 37
+Token number :  9, value : ")"         , line 37
+Token number :  7, value : ";"         , line 37
+Token number : 17, value : "ENDIF"     , line 38
+Token number : 11, value : "end"       , line 40
+Token number : 30, value : "SCANEOF"   , line 41
+End of the execution
