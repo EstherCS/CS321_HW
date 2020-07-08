@@ -1,0 +1,20 @@
+# 4 inputs  -- input_data(4)
+# 2 outputs -- output_signal(2)
+# 6 gates ( 2 BUFFs + 1 NOT + 3 ANDs )
+
+INPUT(300)
+INPUT(301)
+INPUT(302)
+INPUT(303)
+
+OUTPUT(400)
+OUTPUT(401)
+
+400 = BUFF(502)
+401 = BUFF(503)
+
+501 = NOT(500)
+
+500 = AND(300, 301)
+502 = AND(501, 302)
+503 = AND(302, 303)
